@@ -1,20 +1,52 @@
+@charset "UTF-8";
+/* Reset */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: red;
+/* Aca se importarían las google fonts */
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+}
+.header .logo {
+  padding-left: 20px;
+  color: white;
+}
+.header .navigation {
+  padding: 30px;
+}
+.header .navigation .section-list {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+.header .navigation .section-list .nav-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-h1 {
-  color: blue;
-}
-
+/* Seccion blistera */
+/* Seccion diseño */
+/* Seccion contacto */
 /* Seccion contacto */
 .contact-title {
   color: plum;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(39, 39, 39);
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

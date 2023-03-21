@@ -1,15 +1,24 @@
+/* Reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: red;
-}
+/* Aca se importarían las google fonts */
 
-h1 {
-    color: blue;
-}
+/* Header */
+@import 'header.scss';
 
+
+/* Seccion blistera */
+@import 'blister.scss';
+
+/* Seccion diseño */
+@import 'desing.scss';
+
+/* Seccion contacto */
 @import 'contact.scss';
+
+/* Footer */
+@import 'footer.scss';

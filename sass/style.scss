@@ -1,18 +1,11 @@
-/* Reset */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* Aca se importarían las google fonts */
+/* Base */
+@import 'base.scss';
 
 /* Header */
 @import 'header.scss';
 
-
 /* Seccion blistera */
-@import 'blister.scss';
+@import 'pharmacist.scss';
 
 /* Seccion diseño */
 @import 'desing.scss';

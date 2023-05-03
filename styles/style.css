@@ -2,6 +2,7 @@
 /* Base */
 /* Reset */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +15,7 @@
 /* Tipografia */
 html, body {
   height: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 a {
@@ -24,6 +25,7 @@ a {
 
 button {
   font: inherit;
+  border: none;
 }
 
 li {
@@ -33,19 +35,32 @@ li {
 /* Header */
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #1E1E1E;
 }
-.header .logo {
+.header .logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-left: 20px;
   color: white;
+}
+.header .logo-div .index-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .logo-div .index-link img {
+  position: relative;
+  top: 5px;
 }
 .header .navigation {
   padding: 30px;
 }
 .header .navigation .section-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
   list-style-type: none;
 }
@@ -53,34 +68,113 @@ li {
   color: white;
   text-decoration: none;
   font-weight: 400px;
+  padding: 30px;
   font-size: 22px;
+}
+.header .navigation .section-list .nav-link .contact-btn {
+  background-color: #0557F5;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
 }
 
 /* Index */
-.intro {
-  background-image: url("/assets/images/intro-image.png");
+.main-index {
+  background-image: url("/assets/images/backgrouds/intro-image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
+  position: relative;
+  height: 100%;
 }
-.intro .intro-text {
-  background-image: url(/assets/images/index-background.svg);
+.main-index .intro {
+  background-image: url(/assets/images/backgrouds/index-background.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.main-index .intro .intro-text {
   display: flex;
+  height: 50%;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 40px;
+  padding: 70px;
+  gap: 10px;
+  color: white;
+}
+.main-index .intro .intro-text h1 {
+  font-family: "Exo", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+}
+.main-index .intro .intro-text p {
+  font-weight: 400;
+  font-size: 24px;
+  width: 40%;
+  line-height: 36px;
 }
 
 /* Seccion blistera */
 /* Seccion diseño */
 /* Seccion contacto */
 /* Seccion contacto */
-.contact-title {
-  color: plum;
+.contact-body {
+  background-image: url(/assets/images/backgrouds/contact-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-body .main-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 80%;
+}
+.contact-body .main-contact .work-together {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 70%;
+  width: 55%;
+}
+.contact-body .main-contact .work-together .work-h1 {
+  font-size: 78px;
+  font-weight: 700;
+  text-align: center;
+}
+.contact-body .main-contact .work-together .work-p {
+  color: #0557F5;
+  font-size: 27px;
+  font-weight: 300;
+}
+.contact-body .main-contact .form-container {
+  background-color: #3F3F3F;
+  height: 80%;
+  padding: 10px 45px;
+  border-radius: 5px;
+}
+.contact-body .main-contact .form-container form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+}
+.contact-body .main-contact .form-container form h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+.contact-body .main-contact .form-container form input {
+  padding: 20px;
+  border: none;
+  background-color: #474747;
+}
+.contact-body .main-contact .form-container form textarea {
+  background-color: #474747;
+  border: none;
+  padding: 20px;
 }
 
 /* Footer */

@@ -7,21 +7,37 @@
     <title>Matricod</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
+<body class="contact-body">
     <header class="header">
-        <h1 class="logo">
-            <a href="../index.html">Matricod</a>
-        </h1>
+        <div class="logo-div">
+            <a href="../index.html" class="index-link">
+                <img src="/assets/images/logo/logo.svg" alt="matricod-log">
+            </a>
+        </div>
         <nav class="navigation">
             <ul class="section-list">
                 <li class="nav-list"><a href="coding.html" class="nav-link">Codificación</a></li>
                 <li class="nav-list"><a href="pharmacist.html" class="nav-link">Matricería para farmaceuticos</a></li>
                 <li class="nav-list"><a href="desing.html" class="nav-link">Diseño y Desarrollo</a></li>
-                <li class="nav-list"><a href="contact.html" class="nav-link">Contacto</a></li>
+                <li class="nav-list"><a href="contact.html" class="nav-link"><button class="contact-btn">Contacto</button></a></li>
             </ul>
         </nav>
     </header>
-    <h1 class="contact-title">Contacto!!!</h1>
+
+    <main class="main-contact">
+        <section class="work-together">
+            <h1 class="work-h1">¿Listo para trabajar juntos?</h1>
+            <p class="work-p">Completa nuestro formulario de contacto y nos pondremos en accion para ayudarte</p>
+        </section>
+        <div class="form-container">
+            <form action="POST">
+                <h2>Completa con tus datos.</h2>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Emai">
+                <textarea placeholder="Tu mensaje" name="" id="" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+    </main>
 
     <footer class="footer">
         <span>Este sería el footer</span>

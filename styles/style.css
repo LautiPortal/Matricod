@@ -1,17 +1,22 @@
 @charset "UTF-8";
-/* Base */ /* Importar Google Fonts */
+/* Base */
 /* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* Variables */
+/* Importar Google Fonts */
+/* Colores */
+/* Tipografia */
 html, body {
   height: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
-/* Variables de colores y tipografia */
 a {
   text-decoration: none;
   color: white;
@@ -30,7 +35,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(39, 39, 39);
+  background-color: #1E1E1E;
 }
 .header .logo {
   padding-left: 20px;
@@ -47,7 +52,27 @@ li {
 .header .navigation .section-list .nav-link {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
+  font-weight: 400px;
+  font-size: 22px;
+}
+
+/* Index */
+.intro {
+  background-image: url("/assets/images/intro-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.intro .intro-text {
+  background-image: url(/assets/images/index-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px;
 }
 
 /* Seccion blistera */

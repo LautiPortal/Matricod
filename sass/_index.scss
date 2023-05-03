@@ -1,0 +1,17 @@
+.intro {
+    background-image: url('/assets/images/intro-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+        .intro-text {
+            background-image: url(/assets/images/index-background.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: 40px;
+        }
+}

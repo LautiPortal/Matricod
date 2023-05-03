@@ -1,4 +1,3 @@
-/* Importar Google Fonts */
 
 /* Reset */
 
@@ -8,12 +7,14 @@
     box-sizing: border-box;
 }
 
+/* Variables */
+@import 'variables.scss';
+
+
 html, body {
     height: 100%;
+    font-family: $poppins-font; 
 }
-
-/* Variables de colores y tipografia */
-
 
 
 a {

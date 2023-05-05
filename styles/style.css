@@ -36,6 +36,7 @@ li {
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   background-color: #1E1E1E;
 }
 .header .logo-div {
@@ -127,32 +128,35 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
   height: 80%;
+  width: 100%;
 }
 .contact-body .main-contact .work-together {
   background-color: white;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   height: 70%;
-  width: 55%;
+  width: 50%;
+  padding: 5px 20px;
 }
 .contact-body .main-contact .work-together .work-h1 {
   font-size: 78px;
   font-weight: 700;
-  text-align: center;
+  padding: 10px 20px;
 }
 .contact-body .main-contact .work-together .work-p {
   color: #0557F5;
   font-size: 27px;
   font-weight: 300;
+  text-align: left;
+  padding: 40px 20px;
 }
 .contact-body .main-contact .form-container {
   background-color: #3F3F3F;
   height: 80%;
-  padding: 10px 45px;
+  padding: 10px 75px;
   border-radius: 5px;
 }
 .contact-body .main-contact .form-container form {
@@ -169,12 +173,35 @@ li {
 .contact-body .main-contact .form-container form input {
   padding: 20px;
   border: none;
-  background-color: #474747;
+  background-color: #3A3A3A;
+  border-bottom: 4px solid #0557F5;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+.contact-body .main-contact .form-container form input::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact-body .main-contact .form-container form input:focus {
+  outline: none;
 }
 .contact-body .main-contact .form-container form textarea {
-  background-color: #474747;
+  background-color: #3A3A3A;
   border: none;
   padding: 20px;
+  border-bottom: 4px solid #0557F5;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  resize: none;
+}
+.contact-body .main-contact .form-container form textarea::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact-body .main-contact .form-container form textarea:focus {
+  outline: none;
 }
 
 /* Footer */

@@ -7,31 +7,35 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 50px;
         height: 80%;
+        width: 100%;
         .work-together {
                 background-color: white;
                 display: flex;
                 justify-content: center;
-                align-items: flex-start;
+                align-items: center;
                 flex-direction: column;
                 height: 70%;
-                width: 55%;
+                width: 50%;
+                padding: 5px 20px;
                     .work-h1 {
                         font-size: 78px;
                         font-weight: 700;
-                        text-align: center;
+                        padding: 10px 20px;
                     }
                     .work-p {
                         color: $sea-blue;
                         font-size: 27px;
                         font-weight: 300;
+                        text-align: left;
+                        padding: 40px 20px;
+
                     }
             }
         .form-container {
             background-color: $light-grey;
             height: 80%;
-            padding: 10px 45px;
+            padding: 10px 75px;
             border-radius: 5px;
                 form {
                     display: flex;
@@ -46,12 +50,35 @@
                         input {
                             padding: 20px;
                             border: none;
-                            background-color: $light-grey2;
+                            background-color: $dark-grey2;
+                            border-bottom: 4px solid $sea-blue;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 100;
+                                &::placeholder {
+                                    font-size: 20px;
+                                    font-weight: 400;
+                                }
+                                &:focus {
+                                    outline: none;
+                                }
                         }
                         textarea {
-                            background-color: $light-grey2;
+                            background-color: $dark-grey2;
                             border: none;
                             padding: 20px;
+                            border-bottom: 4px solid $sea-blue;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 100;
+                            resize: none;
+                                &::placeholder {
+                                    font-size: 20px;
+                                    font-weight: 400;
+                                }
+                                &:focus {
+                                    outline: none;
+                                }
                         }
                 }
         }

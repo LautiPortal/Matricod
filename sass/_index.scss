@@ -34,3 +34,12 @@
             }
       }
 }
+
+.goals-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $sea-blue;
+    padding: 30px;
+    color: white;
+}

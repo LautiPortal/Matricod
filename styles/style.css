@@ -117,6 +117,15 @@ li {
   line-height: 36px;
 }
 
+.goals-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0557F5;
+  padding: 30px;
+  color: white;
+}
+
 /* Seccion blistera */
 /* Seccion diseño */
 /* Seccion contacto */
@@ -130,7 +139,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 100%;
   width: 100%;
 }
 .contact-body .main-contact .work-together {
@@ -142,6 +151,7 @@ li {
   height: 70%;
   width: 50%;
   padding: 5px 20px;
+  border-radius: 3px;
 }
 .contact-body .main-contact .work-together .work-h1 {
   font-size: 78px;
@@ -163,9 +173,11 @@ li {
 }
 .contact-body .main-contact .form-container form {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
   height: 100%;
+  padding: 20px 0;
+  gap: 20px;
 }
 .contact-body .main-contact .form-container form h2 {
   font-size: 30px;
@@ -204,6 +216,22 @@ li {
 }
 .contact-body .main-contact .form-container form textarea:focus {
   outline: none;
+}
+.contact-body .main-contact .form-container form .submit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.contact-body .main-contact .form-container form .submit-container .submit-btn {
+  width: 70%;
+  padding: 10px;
+  background-color: #0557F5;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 /* Footer */

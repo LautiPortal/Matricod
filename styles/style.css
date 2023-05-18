@@ -77,6 +77,11 @@ li {
   padding: 10px;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.header .navigation .section-list .nav-link .contact-btn:active {
+  transform: scale(0.95);
 }
 
 /* Index */
@@ -124,6 +129,11 @@ li {
   color: white;
   font-size: 22px;
   font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.index-body .main-index .intro .intro-info .intro-btn-container .service-btn:active {
+  transform: scale(0.95);
 }
 .index-body .main-index .intro .intro-info .intro-btn-container .about-btn {
   color: #0557F5;
@@ -132,6 +142,11 @@ li {
   padding: 20px;
   font-size: 22px;
   font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.index-body .main-index .intro .intro-info .intro-btn-container .about-btn:active {
+  transform: scale(0.95);
 }
 .index-body .main-index .intro .intro-cards-container {
   display: flex;
@@ -149,6 +164,13 @@ li {
   padding: 25px;
   gap: 15px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.index-body .main-index .intro .intro-cards-container .intro-card:hover {
+  background-color: #0557F5;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: 0.3s;
 }
 .index-body .main-index .intro .intro-cards-container .intro-card .card-icon-container {
   display: flex;

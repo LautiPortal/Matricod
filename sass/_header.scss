@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: $dark-grey;
+    background-color: transparent;
         .logo-div {
             display: flex;
             justify-content: center;
@@ -15,7 +15,7 @@
                     align-items: center;
                         img {
                             position: relative;
-                            top: 5px;
+                            bottom: 5px;
                         }
                 }
         }

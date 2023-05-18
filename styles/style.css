@@ -37,7 +37,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #1E1E1E;
+  background-color: transparent;
 }
 .header .logo-div {
   display: flex;
@@ -53,7 +53,7 @@ li {
 }
 .header .logo-div .index-link img {
   position: relative;
-  top: 5px;
+  bottom: 5px;
 }
 .header .navigation {
   padding: 30px;
@@ -80,50 +80,97 @@ li {
 }
 
 /* Index */
-.main-index {
-  background-image: url("/assets/images/backgrouds/intro-image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 100%;
+.index-body {
+  background-color: #ECECEC;
 }
-.main-index .intro {
-  background-image: url(/assets/images/backgrouds/index-background.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0px -160px;
+.index-body .main-index .intro .intro-img {
+  content: url("../assets/images/backgrouds/index-background.png");
+  position: absolute;
+  top: 0;
   width: 100%;
-  height: 100%;
+  z-index: -1;
 }
-.main-index .intro .intro-text {
+.index-body .main-index .intro .intro-info {
   display: flex;
-  height: 50%;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 70px;
-  gap: 10px;
+  height: 500px;
+  gap: 30px;
+  padding: 50px;
+}
+.index-body .main-index .intro .intro-info h1 {
   color: white;
-}
-.main-index .intro .intro-text h1 {
-  font-family: "Exo", sans-serif;
-  font-size: 44px;
-  font-weight: 600;
-}
-.main-index .intro .intro-text p {
-  font-weight: 400;
-  font-size: 24px;
+  font-size: "Exo", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
   width: 40%;
-  line-height: 36px;
 }
-
-.goals-section {
+.index-body .main-index .intro .intro-info p {
+  color: white;
+  font-size: "Exo", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  width: 60%;
+}
+.index-body .main-index .intro .intro-info .intro-btn-container {
+  display: flex;
+  gap: 15px;
+}
+.index-body .main-index .intro .intro-info .intro-btn-container .service-btn {
+  background-color: #0557F5;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.index-body .main-index .intro .intro-info .intro-btn-container .about-btn {
+  color: #0557F5;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.index-body .main-index .intro .intro-cards-container {
+  display: flex;
+  justify-content: space-around;
+}
+.index-body .main-index .intro .intro-cards-container .intro-card {
+  color: #0557F5;
+  background-color: white;
+  display: flex;
+  width: 605px;
+  height: 400px;
+  flex-direction: column;
+  margin: 0 50px;
+  font-family: "Exo", sans-serif;
+  padding: 25px;
+  gap: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.index-body .main-index .intro .intro-cards-container .intro-card .card-icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0557F5;
-  padding: 30px;
-  color: white;
+  width: 100%;
+}
+.index-body .main-index .intro .intro-cards-container .intro-card .card-icon-container h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.index-body .main-index .intro .intro-cards-container .intro-card .card-icon-container .card-icon {
+  font-size: 30px;
+  align-self: center;
+  position: relative;
+  right: 50px;
+}
+.index-body .main-index .intro .intro-cards-container .intro-card p {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: justify;
 }
 
 /* Seccion blistera */

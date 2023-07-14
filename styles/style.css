@@ -36,8 +36,7 @@ li {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: transparent;
+  justify-content: space-between;
 }
 .header .logo-div {
   display: flex;
@@ -65,14 +64,14 @@ li {
   gap: 30px;
   list-style-type: none;
 }
-.header .navigation .section-list .nav-link {
+.header .navigation .section-list .nav-list .nav-link {
   color: white;
   text-decoration: none;
   font-weight: 400px;
   padding: 30px;
   font-size: 22px;
 }
-.header .navigation .section-list .nav-link .contact-btn {
+.header .navigation .section-list .nav-list .nav-link .contact-btn {
   background-color: #0557F5;
   padding: 10px;
   color: white;
@@ -80,7 +79,7 @@ li {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
-.header .navigation .section-list .nav-link .contact-btn:active {
+.header .navigation .section-list .nav-list .nav-link .contact-btn:active {
   transform: scale(0.95);
 }
 
@@ -89,7 +88,7 @@ li {
   background-color: #ECECEC;
 }
 .index-body .main-index .intro .intro-img {
-  content: url("../assets/images/backgrouds/index-background.png");
+  content: url("../assets/images/backgrounds/index-background.png");
   position: absolute;
   top: 0;
   width: 100%;
@@ -195,7 +194,13 @@ li {
   text-align: justify;
 }
 
-/* Seccion blistera */
+/* Seccion de pharma */
+.pharma-main .pharma-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* Seccion diseño */
 /* Seccion contacto */
 /* Seccion contacto */

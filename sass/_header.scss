@@ -1,8 +1,7 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: transparent;
+    justify-content: space-between;
         .logo-div {
             display: flex;
             justify-content: center;
@@ -27,23 +26,25 @@
                     align-items: center;
                     gap: 30px;
                     list-style-type: none;
-                        .nav-link {
-                            color: white;
-                            text-decoration: none;
-                            font-weight: 400px;
-                            padding: 30px;
-                            font-size: 22px;
-                                .contact-btn{
-                                    background-color: $sea-blue;
-                                    padding: 10px;
-                                    color: white;
-                                    border-radius: 5px;
-                                    cursor: pointer;
-                                    transition: transform 0.3s ease;
-                                        &:active {
-                                            transform: scale(0.95);
-                                        }
-                                }
+                        .nav-list {
+                            .nav-link {
+                                color: white;
+                                text-decoration: none;
+                                font-weight: 400px;
+                                padding: 30px;
+                                font-size: 22px;
+                                    .contact-btn{
+                                        background-color: $sea-blue;
+                                        padding: 10px;
+                                        color: white;
+                                        border-radius: 5px;
+                                        cursor: pointer;
+                                        transition: transform 0.3s ease;
+                                            &:active {
+                                                transform: scale(0.95);
+                                            }
+                                    }
+                            }
                         }
                 }
         }

@@ -1,33 +1,33 @@
 
 const pharmaData = [
     {
-        title: 'Tipo de matriz 1',
+        title: 'Alimentadores',
         image: '../assets/images/sections/pharma/alimentador1.jpg',
         info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ',
     },
     {
-        title: 'Tipo de matriz 2',
-        image: '../assets/images/sections/pharma/alimentador2.jpg',
+        title: 'Matricerias de moldeo',
+        image: '../assets/images/sections/pharma/matricerias-moldeo2.jpg',
         info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ',
     },
     {
-        title: 'Tipo de matriz 3',
+        title: 'Cortantes',
         image: '../assets/images/sections/pharma/alimentador3.jpg',
         info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ',
     },
     {
-        title: 'Tipo de matriz 4',
-        image: '../assets/images/sections/pharma/alimentador4.jpg',
+        title: 'Precortes',
+        image: '../assets/images/sections/pharma/precortes1.jpg',
         info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ',
     },
     {
-        title: 'Tipo de matriz 2',
-        image: '../assets/images/sections/pharma/alimentador4.jpg',
+        title: 'Piezas especiales',
+        image: '../assets/images/sections/pharma/piezas-especiales1.jpg',
         info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ',
     },
     {
-        title: 'Tipo de matriz 1',
-        image: '../assets/images/sections/pharma/alimentador4.jpg',
+        title: 'Digitos',
+        image: '../assets/images/sections/pharma/digito1.jpeg',
         info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ',
     },
 ]

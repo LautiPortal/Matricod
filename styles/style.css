@@ -53,6 +53,7 @@ li {
 .header .logo-div .index-link img {
   position: relative;
   bottom: 5px;
+  width: 150px;
 }
 .header .navigation {
   padding: 30px;
@@ -211,6 +212,12 @@ li {
   width: 50%;
 }
 
+.pharma-info-container {
+  padding: 40px 0px 40px 60px;
+  width: 85%;
+  font-size: 28px;
+}
+
 .pharma-main {
   padding: 10px;
 }
@@ -249,7 +256,7 @@ li {
 /* Seccion contacto */
 /* Seccion contacto */
 .contact-body {
-  background-image: url(/assets/images/backgrouds/contact-background.svg);
+  /* background-image: url('../assets/images/backgrounds/contact-background.svg'); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -354,9 +361,48 @@ li {
 
 /* Footer */
 .footer {
+  margin-top: 150px;
   width: 100%;
-  background-color: rgb(39, 39, 39);
+  background-color: #0042C0;
   color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .footer-div-sections {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 50px;
+}
+.footer .footer-div-sections img {
+  width: 150px;
+}
+.footer .footer-div-sections ul {
+  display: flex;
+  gap: 80px;
+}
+.footer .footer-div-sections ul .footer-section-div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer .footer-div-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 40px;
+  gap: 40px;
+}
+.footer .footer-div-contact .contact-div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 2px;
+}
+.footer .footer-div-contact .contact-div .highlight-span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

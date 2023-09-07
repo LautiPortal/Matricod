@@ -1,6 +1,6 @@
 /* Seccion contacto */
 .contact-body {
-    /* background-image: url('../assets/images/backgrounds/contact-background.svg'); */
+    background-image: url('../assets/images/backgrounds/contact-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     .main-contact {
@@ -16,27 +16,27 @@
                 align-items: center;
                 flex-direction: column;
                 height: 70%;
-                width: 50%;
+                width: 45%;
                 padding: 5px 20px;
                 border-radius: 3px;
+                box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25);
                     .work-h1 {
-                        font-size: 78px;
+                        font-size: 70px;
                         font-weight: 700;
                         padding: 10px 20px;
                     }
                     .work-p {
                         color: $sea-blue;
-                        font-size: 27px;
-                        font-weight: 300;
+                        font-size: 25px;
+                        font-weight: 500;
                         text-align: left;
-                        padding: 40px 20px;
-
+                        padding: 20px;
                     }
             }
         .form-container {
             background-color: $light-grey;
-            height: 80%;
-            padding: 10px 75px;
+            height: 85%;
+            padding: 20px 75px;
             border-radius: 5px;
                 form {
                     display: flex;
@@ -59,7 +59,7 @@
                             font-size: 18px;
                             font-weight: 100;
                                 &::placeholder {
-                                    font-size: 20px;
+                                    font-size: 18px;
                                     font-weight: 400;
                                 }
                                 &:focus {
@@ -89,13 +89,12 @@
                             align-items: center;
                             width: 100%;
                                 .submit-btn {
-                                    width: 70%;
+                                    width: 100%;
                                     padding: 10px;
                                     background-color: $sea-blue;
                                     color: white;
-                                    font-size: 30px;
-                                    border-radius: 5px;
-                                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                    font-size: 24px;
+                                    border-radius: 8px;
                                     cursor: pointer;
                                 }
                         }

@@ -41,6 +41,7 @@ const pharmaMap = pharmaData.map(product => {
             <div class='pharma-card-info'>
                 <h3 class='pharma-card-title'>${product.title}</h3>
                 <p class='pharma-card-p'>${product.info}</p>
+                <button class='pharma-card-btn'>Ver más</button>
             </div>
         </div>`
     )

@@ -1,7 +1,9 @@
 .pharma-background {
     background-image: url('../assets/images/backgrounds/pharmaBackground.png');
     background-size: cover;
+    background-position: center;
     height: 80%;
+    background-repeat: no-repeat;
     position: relative;
     .pharma-title {
         position: absolute;
@@ -15,7 +17,7 @@
 }
 
 .pharma-info-container {
-    padding: 40px 0px 40px 60px;
+    padding: 40px 0px 40px 65px;
     width: 85%;
     font-size: 28px;
 }
@@ -24,31 +26,49 @@
 .pharma-main {
     padding: 10px;
     .pharma-cards-container {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
         align-items: center;
-        flex-wrap: wrap;
-        gap: 60px;
-        padding: 20px;
+        row-gap: 20px;
         .pharma-card {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 350px;
+            width: 380px;
             .pharma-card-img {
-                width: 250px;
+                width: 380px;
                 height: 240px;
-                border-radius: 10px;
+                border-radius: 8px 8px 0px 0px;
             }
             .pharma-card-info {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                padding: 10px;
-                gap: 10px;
+                align-items: start;
+                padding: 30px;
+                width: 100%;
+                border-radius: 0px 0px 8px 8px;
+                border: 1px solid #D4D4D4;
+                background: #F2F2F2;
+                gap: 20px;
+                .pharma-card-title {
+                    font-size: 24px;
+                    font-weight: 500;
+                }
                 .pharma-card-p {
-                    text-align: start;
+                    text-align: justify;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                .pharma-card-btn {
+                    width: 100%;
+                    background-color: #0085D0;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    color: white;
+                    padding: 10px;
                 }
             }
         }
